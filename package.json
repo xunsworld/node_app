@@ -1,0 +1,26 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "这是一个vue3+ + element-plus +vite + nodejs + express + mongodb 项目。",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run server",
+    "dev:client": "cd client && pnpm  dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xunsworld/node_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/xunsworld/node_app/issues"
+  },
+  "homepage": "https://github.com/xunsworld/node_app#readme"
+}

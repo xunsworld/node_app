@@ -1,0 +1,36 @@
+:root {
+    --font-size-base: 14px;
+    --font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5fae\8f6f\96c5\9ed1", Arial, sans-serif;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --colors: (primary: #409eff,
+            success: #67c23a,
+            warning: #e6a23c,
+            danger: #f56c6c,
+            info: #909399);
+
+    --bg-color: #ffffff;
+    --bg-color-page: #f2f3f5;
+    --bg-color-primary: #409eff;
+    --bg-color-primary-light-8: #79BBFF;
+    --bg-color-primary-light-2: #C6E2FF;
+    --bg-color-overlay: #ffffff;
+    --text-color-primary: #303133;
+    --text-color-regular: #606266;
+    --text-color-secondary: #909399;
+    --text-color-placeholder: #a8abb2;
+    --text-color-disabled: #c0c4cc;
+    --border-color: #dcdfe6;
+    --border-color-light: #e4e7ed;
+    --border-color-lighter: #ebeef5;
+    --border-color-extra-light: #f2f6fc;
+    --border-color-dark: #d4d7de;
+    --border-color-darker: #cdd0d6;
+    --fill-color: #f0f2f5;
+    --fill-color-light: #f5f7fa;
+    --fill-color-lighter: #fafafa;
+    --fill-color-extra-light: #fafcff;
+    --fill-color-dark: #ebedf0;
+    --fill-color-darker: #e6e8eb;
+    --fill-color-blank: #ffffff;
+}
